@@ -72,7 +72,7 @@ makepathStars <- function(group) {
   dir.create(tmpPath)
   # }
   baseFn <- paste("data_stars", group, sep = "_")
-  extFn <- "txt"
+  extFn <- "js"
   datFn <- paste0(baseFn, createFileId(), ".", extFn)
   pathDatFn <- paste0(tmpPath, "/", datFn)
   starspathDatFn <- paste0(tmpPath, "/", "stars_", datFn)
